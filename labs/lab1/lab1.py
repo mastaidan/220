@@ -5,7 +5,6 @@ Calculate monthly interest based by asking inputs and running the numbers.
 I certify that this assignment is entirely my own work.
 """
 
-
 def monthly_interest():
     monthly_percent_int = eval(input("What is the annual interest?")) / 1200
     billing_cycle_length = eval(input("How long is billing cycle?"))
