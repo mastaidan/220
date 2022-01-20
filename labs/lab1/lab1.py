@@ -1,7 +1,7 @@
 """
 Aidan Mast
 Lab1.py
-Calculate monthly interest based on asked inputs
+Calculate monthly interest based by asking inputs and running the numbers.
 I certify that this assignment is entirely my own work.
 """
 
