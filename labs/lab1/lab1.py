@@ -17,3 +17,6 @@ def monthly_interest():
     average_daily_balance = (step_1 - step_2) / billing_cycle_length
     monthly_interest = average_daily_balance * monthly_percent_int
     print("Your monthly interest is", monthly_interest, "!")
+    print("If you would like to calculate another monthly interest, then type monthly_interest().")
+
+monthly_interest()
