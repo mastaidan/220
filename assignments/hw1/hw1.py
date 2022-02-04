@@ -1,5 +1,5 @@
 """
-Name: AidanMast
+Name: Aidan Mast
 hw1.py
 
 Problem: Use functions to run the numbers.
