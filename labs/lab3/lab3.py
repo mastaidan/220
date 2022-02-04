@@ -2,7 +2,7 @@
 Name: Aidan Mast
 lab3.py
 
-Problem: Calculate three different averages using math and loops.4
+Problem: Create program that tracks the average cars on a road and gives averages.
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
