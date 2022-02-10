@@ -10,7 +10,7 @@ I certify that this assignment is entirely my own work.
 import graphics
 import time
 
-win = graphics.GraphWin("(in russian accent) Have Good Valentine Day Yes", 700, 700)
+win = graphics.GraphWin("Valentine\'s Day", 700, 700)
 win.setCoords(0, 0, 10, 10)
 # creates window
 
@@ -68,6 +68,7 @@ stem.draw(win)
 #embeds arrow
 
 greeting.setText("Click anywhere to close")
+#changes greeting
 
 win.getMouse()
 win.close()
