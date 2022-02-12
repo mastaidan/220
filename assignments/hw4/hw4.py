@@ -1,8 +1,8 @@
 """
 Name: Aidan Mast
-hw3.py
+hw4.py
 
-Problem: Runs the numbers for several functions, providing averages, totals, and approximations.
+Problem: Create interactable windows that create images when clicked, and estimate pi.
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
