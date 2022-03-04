@@ -1,6 +1,6 @@
 """
 Name: Aidan Mast
-lab7.py
+lab6.py
 
 Problem: Write program that take in a file as input and outputs names, weighted averages, and total average.
 
