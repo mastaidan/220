@@ -46,14 +46,19 @@ def syracuse(number):
 
 
 def goldbach(number):
-    first = 2
+    first = 1
     if number % 2:
         return None
-    while first < number:
+    while first < number / 2:
+        steve = 1
         first = first + 1
         second = number - first
-        i = 2
-        while i < first:
-            if first % i != 0 and second % i != 0:
-                return [first, int(second)]
-            i = i + 1
+        i = 3
+        while steve:
+            if first % i == 0 or second % i == 0:
+                steve = 0
+            if first % i != 0 or i > first:
+                if second % i != 0 or i > second:
+                    i = i + 1
+            if i >= first and i >= second:
+                return [first, second]
