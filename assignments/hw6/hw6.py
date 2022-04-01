@@ -24,7 +24,6 @@ def encode():
     for index in range(message_length):
         coded_value = ord(message[index]) + key
         uni_message.append(coded_value)
-    for index in range(message_length):
         coded_chr = chr(uni_message[index])
         coded_message.append(coded_chr)
     print("".join(coded_message))
@@ -61,18 +60,16 @@ def encode_better():
     number_key = []
     coded_ord_message = []
     coded_message = []
-    for index in range(message_length):
-        number_letter = ord(org_message[index]) - 65
-        number_message.append(number_letter)
     for index in range(key_length):
         number_letter = ord(org_key[index]) - 65
         number_key.append(number_letter)
-    for i in range(message_length):
-        repeat_key_values = i % len(org_key)
-        coded_number = number_message[i] + number_key[repeat_key_values]
+    for index in range(message_length):
+        number_letter = ord(org_message[index]) - 65
+        number_message.append(number_letter)
+        repeat_key_values = index % len(org_key)
+        coded_number = number_message[index] + number_key[repeat_key_values]
         coded_ord_message.append(coded_number)
-    for i in range(message_length):
-        number = coded_ord_message[i] % 58
+        number = coded_ord_message[index] % 58
         letter = chr(number + 65)
         coded_message.append(letter)
     print("".join(coded_message))

@@ -11,7 +11,7 @@ I certify that this assignment is entirely my own work.
 
 
 def average():
-    grade_amount = eval(input("how many grades will you enter?"))
+    grade_amount = eval(input("how many grades.txt will you enter?"))
     total = 0
     for i in range(grade_amount):
         grade_value = eval(input("Enter grade:"))
