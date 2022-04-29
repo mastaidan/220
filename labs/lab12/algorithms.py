@@ -2,7 +2,7 @@
 Name: Aidan Mast
 lab12.py
 
-Problem:
+Problem: Manipulate lists, numbers, and make games without using for loops.
 
 Certification of Authenticity:
 I certify that this assignment is entirely my own work.
