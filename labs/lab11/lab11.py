@@ -10,7 +10,6 @@ I certify that this assignment is entirely my own work.
 from lab10.button import Button
 from lab10.door import Door
 from random import randint
-
 from graphics import *
 from lab10.button import Button
 from lab10.door import Door
