@@ -60,7 +60,7 @@ def hi_lo_game():
 
 
 def main():
-    pass
+    print(selection_sort([3, 2, 4, 8, 1]))
 
 
 main()
